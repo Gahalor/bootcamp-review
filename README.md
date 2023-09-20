@@ -4,4 +4,4 @@
 
 Proyecto desarrollado para el bootcamp ICP.HUB Latam
 
-https://famu2-hiaaa-aaaal-qcczq-cai.icp0.io/
+Webapp: https://famu2-hiaaa-aaaal-qcczq-cai.icp0.io/
