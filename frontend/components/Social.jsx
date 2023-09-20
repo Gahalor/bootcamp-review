@@ -28,7 +28,7 @@ const IcpSocial = () => {
         setLoading("Loading...");
         try {
             const result = await social.getPosts();
-            setPosts(result.sort((a, b) => parseInt(a[0]) - parseInt(b[0])));  // Ordenar posts por ID
+            setPosts(result.sort((a, b) => parseInt(b[0]) - parseInt(a[0])));  // Ordenar posts por ID
             setLoading("Done");
         } catch (e) {
             console.log(e);
